@@ -4,6 +4,8 @@ from requests.auth import HTTPBasicAuth
 from bs4 import BeautifulSoup
 import time
 import simpleaudio as sa
+
+# Replace login_creds.username with your Tufts username and password for password
 auth = HTTPBasicAuth(login_creds.username, login_creds.password)
 
 s = requests.Session()
