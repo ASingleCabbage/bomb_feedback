@@ -9,6 +9,6 @@ Requires Python 3 and virtualenv to run.
 Activate virtualenv by running /bomb_env/Scripts/activate script, and run boom.py.
 
 bombstats webpage requires a Tufts username and password, so you'll also have to substitute login_creds.username and login_creds.password for your own on line
-'''
+```
 auth = HTTPBasicAuth(login_creds.username, login_creds.password)
-'''
+```
