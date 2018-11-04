@@ -12,3 +12,14 @@ bombstats webpage requires a Tufts username and password, so you'll also have to
 ```
 auth = HTTPBasicAuth(login_creds.username, login_creds.password)
 ```
+
+# running vocal_explosive.py
+Want to explode a bomb but from a safe distance? Use voice control!
+Voice activated bomb trigger device is out now!
+
+Say "Ok, Google", wait for the que sound, and say "Explode bomb", and it explodes a bomb. How wonderful is that.
+
+Same requirements as bomb_feedback; activate the virtualenv the same way.
+Before it starts blowing things up it would prompt you to select your microphone.
+
+
